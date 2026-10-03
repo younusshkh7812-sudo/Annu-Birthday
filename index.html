@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Annu — Chapter 18</title>
+
+    <meta name="theme-color" content="#08080d">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     LOADING / INTRO
+===================================================== -->
+
+<div class="intro" id="intro">
+
+    <div class="intro-noise"></div>
+
+    <div class="intro-content">
+
+        <p class="intro-top">A little something</p>
+
+        <h1>
+            made<br>
+            <span>for you.</span>
+        </h1>
+
+        <div class="intro-divider"></div>
+
+        <p class="intro-by">— Yunus</p>
+
+        <button id="enterBtn" class="enter-btn">
+            Enter
+            <span>↗</span>
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     MUSIC
+===================================================== -->
+
+<audio id="bgMusic" loop preload="metadata">
+    <source src="./love-you-zindagi.mp4" type="audio/mp4">
+</audio>
+
+<audio id="specialMusic" preload="metadata">
+    <source src="./mast-magan.mp4" type="audio/mp4">
+</audio>
+
+<button id="musicToggle" class="music-toggle" aria-label="Music">
+    <span>♪</span>
+</button>
+
+
+<!-- =====================================================
+     PROGRESS
+===================================================== -->
+
+<div class="progress">
+    <div id="progressBar"></div>
+</div>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero" id="home">
+
+    <div class="hero-orb orb-one"></div>
+    <div class="hero-orb orb-two"></div>
+
+    <div class="hero-content">
+
+        <p class="date reveal">04 · 10 · 2026</p>
+
+        <p class="tiny reveal">THIS IS FOR</p>
+
+        <h1 class="hero-title reveal">
+            Annu<span>.</span>
+        </h1>
+
+        <p class="hero-description reveal">
+            A little corner of the internet,
+            made specially for your 18th chapter.
+        </p>
+
+        <button id="openGift" class="hero-button reveal">
+            <span class="button-circle">↘</span>
+            <span>Open your surprise</span>
+        </button>
+
+        <p class="scroll-text reveal">
+            SCROLL SLOWLY
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CHAPTER 18
+===================================================== -->
+
+<section class="chapter section-dark">
+
+    <div class="chapter-number">18</div>
+
+    <div class="chapter-content">
+
+        <p class="eyebrow reveal">
+            CHAPTER 01
+        </p>
+
+        <h2 class="reveal">
+            Chapter<br>
+            <em>18.</em>
+        </h2>
+
+        <p class="chapter-text reveal">
+            Eighteen isn't just another number.
+            It's the beginning of a completely new chapter —
+            new memories, new places, new dreams,
+            and a lot of little moments waiting to happen.
+        </p>
+
+        <div class="chapter-line reveal"></div>
+
+        <p class="chapter-small reveal">
+            I hope this chapter is gentle with you.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     BALLOONS / CAKE
+===================================================== -->
+
+<section class="birthday section-pink">
+
+    <div class="birthday-inner">
+
+        <p class="eyebrow reveal">
+            TODAY IS YOUR DAY
+        </p>
+
+        <h2 class="reveal">
+            Make a wish.
+        </h2>
+
+        <p class="birthday-sub reveal">
+            But before that...
+        </p>
+
+
+        <div class="cake-area reveal" id="cake">
+
+            <div class="cake-glow"></div>
+
+            <div class="candles">
+
+                <div class="candle">
+                    <span></span>
+                </div>
+
+                <div class="candle">
+                    <span></span>
+                </div>
+
+                <div class="candle">
+                    <span></span>
+                </div>
+
+                <div class="candle">
+                    <span></span>
+                </div>
+
+                <div class="candle">
+                    <span></span>
+                </div>
+
+            </div>
+
+            <div class="cake-top"></div>
+
+            <div class="cake-middle">
+                <span>Happy Birthday</span>
+            </div>
+
+            <div class="cake-bottom"></div>
+
+        </div>
+
+        <p id="cakeHint" class="interaction-hint">
+            Tap the cake to blow the candles ✨
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     LITTLE THINGS
+===================================================== -->
+
+<section class="things section-dark">
+
+    <div class="things-heading">
+
+        <p class="eyebrow reveal">
+            CHAPTER 02
+        </p>
+
+        <h2 class="reveal">
+            Little things<br>
+            <em>that make you, you.</em>
+        </h2>
+
+    </div>
+
+
+    <div class="cards-grid">
+
+        <article class="memory-card card-pink reveal">
+
+            <div class="card-number">01</div>
+
+            <div class="card-icon">🌸</div>
+
+            <h3>Quietly shy</h3>
+
+            <p>
+                Sometimes a little shy,
+                sometimes completely lost in your own world.
+                And somehow, that has its own charm.
+            </p>
+
+        </article>
+
+
+        <article class="memory-card card-black reveal">
+
+            <div class="card-number">02</div>
+
+            <div class="card-icon">🖤</div>
+
+            <h3>A little attitude</h3>
+
+            <p>
+                A little attitude,
+                a little stubbornness,
+                and a personality that is completely your own.
+            </p>
+
+        </article>
+
+
+        <article class="memory-card card-navy reveal">
+
+            <div class="card-number">03</div>
+
+            <div class="card-icon">🩺</div>
+
+            <h3>Future nurse</h3>
+
+            <p>
+                BSc Nursing today,
+                and hopefully a future full of
+                things that make you proud.
+            </p>
+
+        </article>
+
+
+        <article class="memory-card card-white reveal">
+
+            <div class="card-number">04</div>
+
+            <div class="card-icon">🎧</div>
+
+            <h3>Music & moments</h3>
+
+            <p>
+                Because sometimes one song,
+                one evening and one little moment
+                can become a memory.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FAMILY
+===================================================== -->
+
+<section class="family section-light">
+
+    <div class="family-content">
+
+        <p class="eyebrow reveal">
+            CHAPTER 03
+        </p>
+
+        <h2 class="reveal">
+            The people<br>
+            <em>who make home.</em>
+        </h2>
+
+        <p class="family-intro reveal">
+            Behind every person is a little world
+            made of people, memories and love.
+        </p>
+
+
+        <div class="family-grid">
+
+            <div class="family-item reveal">
+                <div class="family-symbol">D</div>
+                <div>
+                    <h3>Dad</h3>
+                    <p>Always having your back.</p>
+                </div>
+            </div>
+
+
+            <div class="family-item reveal">
+                <div class="family-symbol">M</div>
+                <div>
+                    <h3>Mom</h3>
+                    <p>A little piece of home.</p>
+                </div>
+            </div>
+
+
+            <div class="family-item reveal">
+                <div class="family-symbol">S</div>
+                <div>
+                    <h3>Sister</h3>
+                    <p>Memories, laughter & chaos.</p>
+                </div>
+            </div>
+
+
+            <div class="family-item reveal">
+                <div class="family-symbol">B</div>
+                <div>
+                    <h3>Brother</h3>
+                    <p>The chaos that completes it.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     BOUQUET
+===================================================== -->
+
+<section class="bouquet-section section-dark">
+
+    <div class="bouquet-content">
+
+        <p class="eyebrow reveal">
+            JUST BECAUSE
+        </p>
+
+        <div class="bouquet-frame reveal">
+
+            <div class="image-shine"></div>
+
+            <img
+                src="./bouquet.jpeg"
+                alt="Bouquet for Annu"
+            >
+
+            <div class="bouquet-note">
+                <span>H</span>
+            </div>
+
+        </div>
+
+        <h2 class="reveal">
+            Flowers felt<br>
+            <em>right.</em>
+        </h2>
+
+        <p class="bouquet-text reveal">
+            A little bouquet for a day that
+            deserves something beautiful.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SONG
+===================================================== -->
+
+<section class="song-section section-pink">
+
+    <div class="song-content">
+
+        <p class="eyebrow reveal">
+            A SONG FOR THIS MOMENT
+        </p>
+
+        <div class="vinyl reveal">
+
+            <div class="vinyl-inner">
+                ♪
+            </div>
+
+        </div>
+
+        <h2 class="reveal">
+            This one reminded<br>
+            <em>me of you.</em>
+        </h2>
+
+        <p class="song-description reveal">
+            I don't know if this is your kind of song,
+            but somehow... I felt you'd like this one. ♡
+        </p>
+
+        <button
+            id="specialSongBtn"
+            class="song-button reveal"
+        >
+            <span id="songIcon">▶</span>
+            <span id="songButtonText">
+                Play something I picked for you
+            </span>
+        </button>
+
+        <p id="songStatus" class="song-status">
+            Love You Zindagi · background music
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     LETTER
+===================================================== -->
+
+<section class="letter-section section-dark">
+
+    <div class="letter-content">
+
+        <p class="eyebrow reveal">
+            CHAPTER 04
+        </p>
+
+        <h2 class="reveal">
+            One little<br>
+            <em>note.</em>
+        </h2>
+
+
+        <div class="letter-wrapper reveal" id="letter">
+
+            <div class="letter-cover">
+
+                <span>For Annu ♡</span>
+
+                <small>
+                    tap to open
+                </small>
+
+            </div>
+
+
+            <div class="letter-paper">
+
+                <p class="letter-date">
+                    04 October 2026
+                </p>
+
+                <h3>
+                    Dear Annu,
+                </h3>
+
+                <p>
+                    I just wanted to make something
+                    that makes your birthday feel
+                    a little more special.
+                </p>
+
+                <p>
+                    Eighteen is the beginning of
+                    a completely new chapter.
+                    I hope it brings you beautiful
+                    memories, good people and
+                    plenty of reasons to smile.
+                </p>
+
+                <p>
+                    Keep being your slightly shy,
+                    slightly stubborn and completely
+                    yourself kind of person.
+                </p>
+
+                <p>
+                    Whatever comes next,
+                    I hope life is kind to you.
+                </p>
+
+                <div class="letter-end">
+                    Happy Birthday, Annu. 🌹
+                </div>
+
+                <div class="signature">
+                    — Yunus
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SECRET
+===================================================== -->
+
+<section class="secret section-light">
+
+    <div class="secret-content reveal">
+
+        <p class="eyebrow">
+            ONE MORE THING
+        </p>
+
+        <div
+            class="secret-gift"
+            id="secretGift"
+        >
+            🎁
+        </div>
+
+        <h2>
+            Apparently,<br>
+            <em>one surprise wasn't enough.</em>
+        </h2>
+
+        <p>
+            So here's one final little detail.
+        </p>
+
+        <div
+            id="secretMessage"
+            class="secret-message"
+        >
+            Made with too much time,
+            too many ideas,
+            and a little bit of heart.
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FINAL
+===================================================== -->
+
+<section class="final-section">
+
+    <div class="final-glow"></div>
+
+    <div class="final-content">
+
+        <p class="eyebrow reveal">
+            AND FINALLY...
+        </p>
+
+        <div class="final-18 reveal">
+            18
+        </div>
+
+        <h1 class="reveal">
+            Happy Birthday,
+            <span>Annu.</span>
+        </h1>
+
+        <div class="rose reveal">
+            🌹
+        </div>
+
+        <p class="final-message reveal">
+            May this chapter bring you
+            beautiful moments, unexpected happiness,
+            good people and countless reasons to smile.
+        </p>
+
+        <div class="final-line reveal"></div>
+
+        <p class="final-sign reveal">
+            Made specially for you.<br>
+            — Yunus
+        </p>
+
+        <button
+            id="replayBtn"
+            class="replay reveal"
+        >
+            ↻ Replay from the beginning
+        </button>
+
+    </div>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
